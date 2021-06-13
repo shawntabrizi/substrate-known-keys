@@ -1,5 +1,15 @@
 {
 	"raw": [
+		{
+			"name": "CURRENT_SLOT",
+			"key": "1cb6f36e027abb2091cfb5110ab5087f06155b3cd9a8c9e5e9a23fd5dc13a5ed"
+		},
+		{
+			"name": "ACTIVE_CONFIG",
+			"key": "06de3d8a54d27e44a9d5ce189618f22db4b49d95320d9021994c850f25b8e385"
+		}
+	],
+	"encoded": [
 		":code",
 		":heappages",
 		":extrinsic_index",

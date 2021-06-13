@@ -42,7 +42,9 @@ async function main() {
 	// This is a list of the "well_known_keys" in Substrate
 	let output = [];
 
-	for (word of dictionary.raw) {
+	output = output.concat(dictionary.raw);
+
+	for (word of dictionary.encoded) {
 		let key = stringToHex(word);
 		output.push({
 			"name": word,
@@ -71,7 +73,7 @@ async function main() {
 			} catch {
 				output.push({
 					"name": module + " " + storage,
-					"prefix": query.keyPrefix(),
+					"key": query.keyPrefix(),
 				});
 			}
 		}
