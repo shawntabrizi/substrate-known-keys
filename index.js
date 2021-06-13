@@ -1,4 +1,7 @@
 var { ApiPromise, WsProvider } = require('@polkadot/api');
+var { stringToHex } = require('@polkadot/util');
+var { xxhashAsHex } = require('@polkadot/util-crypto');
+const dictionary = require("./dictionary.json");
 
 async function main() {
 
@@ -37,27 +40,23 @@ async function main() {
 	);
 
 	// This is a list of the "well_known_keys" in Substrate
-	let output = [{
-			"name": ":code",
-			"key": "0x3a636f6465"
-		},
-		{
-			"name": ":heappages",
-			"key": "0x3a686561707061676573"
-		},
-		{
-			"name": ":extrinsic_index",
-			"key": "0x3a65787472696e7369635f696e646578"
-		},
-		{
-			"name": ":changes_trie",
-			"key": "0x3a6368616e6765735f74726965"
-		},
-		{
-			"name": ":child_storage:",
-			"key": "0x3a6368696c645f73746f726167653a"
-		}
-	];
+	let output = [];
+
+	for (word of dictionary.raw) {
+		let key = stringToHex(word);
+		output.push({
+			"name": word,
+			"key": key,
+		});
+	}
+
+	for (word of dictionary.hashed) {
+		let key = xxhashAsHex(word);
+		output.push({
+			"name": word,
+			"key": key,
+		});
+	}
 
 	for (module in api.query) {
 		if (module == "substrate") { continue; }
@@ -68,12 +67,12 @@ async function main() {
 				output.push({
 					"name": module + " " + storage,
 					"key": query.key(),
-				})
+				});
 			} catch {
 				output.push({
 					"name": module + " " + storage,
 					"prefix": query.keyPrefix(),
-				})
+				});
 			}
 		}
 	}
@@ -84,7 +83,7 @@ async function main() {
 	fs.writeFileSync(
 		('./known-keys.json').toLowerCase().replace(/\s/g, '-'),
 		JSON.stringify(output, null, '  ')
-	)
+	);
 
 	provider.disconnect()
 }

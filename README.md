@@ -1,5 +1,7 @@
 # substrate-known-keys
- A list of all the known keys commonly used in Substrate
+ A list of all the known keys commonly used in Substrate.
+
+ [known-keys.json](./known-keys.json)
 
 ## How To Use
 
@@ -7,7 +9,7 @@
 yarn && yarn start <endpoint>
 ```
 
-Output to `known-keys.json`
+Output to [known-keys.json](./known-keys.json)
 
 `<endpoint>` can be:
 

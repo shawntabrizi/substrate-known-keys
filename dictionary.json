@@ -1,0 +1,11 @@
+{
+	"raw": [
+		":code",
+		":heappages",
+		":extrinsic_index",
+		":changes_trie",
+		":child_storage:",
+		":child_storage:default:"
+	],
+	"hashed": []
+}
