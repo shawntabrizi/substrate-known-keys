@@ -2,19 +2,10 @@ var { ApiPromise, WsProvider } = require('@polkadot/api');
 var { stringToHex } = require('@polkadot/util');
 var { xxhashAsHex } = require('@polkadot/util-crypto');
 const dictionary = require("./dictionary.json");
+const networks = require("./networks.json");
 
 // This is a list of the "well_known_keys" in Substrate
 let output = [];
-
-// We will grab the metadata for all these networks.
-// Does not handle failure well...
-let networks = [
-	"wss://kusama-rpc.polkadot.io/",
-	"wss://rpc.polkadot.io/",
-	"wss://kusama-statemine-rpc.paritytech.net",
-	"wss://rococo-rpc.polkadot.io",
-	"wss://westend-rpc.polkadot.io",
-]
 
 async function main() {
 	output = output.concat(dictionary.raw);
