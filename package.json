@@ -10,8 +10,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@polkadot/api": "^6.5.2",
-    "@polkadot/util": "^7.6.1",
-    "@polkadot/util-crypto": "^7.6.1"
+    "@polkadot/api": "^7.4.1",
+    "@polkadot/util": "^8.3.2",
+    "@polkadot/util-crypto": "^8.3.2"
   }
 }

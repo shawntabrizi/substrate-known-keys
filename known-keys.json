@@ -48,6 +48,30 @@
     "key": "0x682a59d51ab9e48a8c8cc418ff9708d24e7b9012096b41c4eb3aaf947f6ea429"
   },
   {
+    "name": "assignedSlots activeTemporarySlotCount",
+    "key": "0x6cf4040bbce30824850f1a4823d8c65faeefaa25a5bae16a431719647c1d99da"
+  },
+  {
+    "name": "assignedSlots palletVersion",
+    "key": "0x6cf4040bbce30824850f1a4823d8c65f4e7b9012096b41c4eb3aaf947f6ea429"
+  },
+  {
+    "name": "assignedSlots permanentSlotCount",
+    "key": "0x6cf4040bbce30824850f1a4823d8c65f5c2537a826f40bfabfd1ca407e83c25d"
+  },
+  {
+    "name": "assignedSlots permanentSlots",
+    "key": "0x6cf4040bbce30824850f1a4823d8c65f9b648f581efea4958035e1abe3fa9d6a"
+  },
+  {
+    "name": "assignedSlots temporarySlotCount",
+    "key": "0x6cf4040bbce30824850f1a4823d8c65ff536928ca5ba50039bc2766a48ddbbab"
+  },
+  {
+    "name": "assignedSlots temporarySlots",
+    "key": "0x6cf4040bbce30824850f1a4823d8c65f169e7c43e507f5caf093224fc23a5dab"
+  },
+  {
     "name": "auctions auctionCounter",
     "key": "0xca32a41f4b3ed515863dc0a38697f84ea532c79766d5a981efeca4da298f4e4f"
   },
@@ -86,6 +110,18 @@
   {
     "name": "auraExt palletVersion",
     "key": "0x3c311d57d4daf52904616cf69648081e4e7b9012096b41c4eb3aaf947f6ea429"
+  },
+  {
+    "name": "authorityDiscovery keys",
+    "key": "0x2099d7f109d6e535fb000bba623fd4409f99a2ce711f3a31b2fc05604c93f179"
+  },
+  {
+    "name": "authorityDiscovery nextKeys",
+    "key": "0x2099d7f109d6e535fb000bba623fd4404c014e6bf8b8c2c011e7290b85696bb3"
+  },
+  {
+    "name": "authorityDiscovery palletVersion",
+    "key": "0x2099d7f109d6e535fb000bba623fd4404e7b9012096b41c4eb3aaf947f6ea429"
   },
   {
     "name": "authorship author",
@@ -248,6 +284,134 @@
     "key": "0xa37f719efab16103103a0c8c2c784ce14e7b9012096b41c4eb3aaf947f6ea429"
   },
   {
+    "name": "bridgeRococoGrandpa bestFinalized",
+    "key": "0x9ba1b78972885c5d3fc221d6771e8ba2a4ebafdd473c549fdb24c5c991c5591c"
+  },
+  {
+    "name": "bridgeRococoGrandpa currentAuthoritySet",
+    "key": "0x9ba1b78972885c5d3fc221d6771e8ba224a7b8b5717ea33346fa595a66ccbcb0"
+  },
+  {
+    "name": "bridgeRococoGrandpa importedHashes",
+    "key": "0x9ba1b78972885c5d3fc221d6771e8ba20143a06adf1bce22251cdae632c26899"
+  },
+  {
+    "name": "bridgeRococoGrandpa importedHashesPointer",
+    "key": "0x9ba1b78972885c5d3fc221d6771e8ba2799684227dccd4609843470b46c2a4b4"
+  },
+  {
+    "name": "bridgeRococoGrandpa importedHeaders",
+    "key": "0x9ba1b78972885c5d3fc221d6771e8ba2f7e5937ed7be0ea26416b155b0109b48"
+  },
+  {
+    "name": "bridgeRococoGrandpa initialHash",
+    "key": "0x9ba1b78972885c5d3fc221d6771e8ba2ccab258509f2075fdbc5ad77225c3915"
+  },
+  {
+    "name": "bridgeRococoGrandpa isHalted",
+    "key": "0x9ba1b78972885c5d3fc221d6771e8ba29611a984bbd04e2fd39f97bbc006115f"
+  },
+  {
+    "name": "bridgeRococoGrandpa palletOwner",
+    "key": "0x9ba1b78972885c5d3fc221d6771e8ba2fe6d4a58cccf03d052c50ccbfa0311c7"
+  },
+  {
+    "name": "bridgeRococoGrandpa palletVersion",
+    "key": "0x9ba1b78972885c5d3fc221d6771e8ba24e7b9012096b41c4eb3aaf947f6ea429"
+  },
+  {
+    "name": "bridgeRococoGrandpa requestCount",
+    "key": "0x9ba1b78972885c5d3fc221d6771e8ba28259c5bf83601e7c551b86a2faabef9f"
+  },
+  {
+    "name": "bridgeRococoMessages inboundLanes",
+    "key": "0x2b46c0ae62c8114b3eda55630f11ff3ae5f83cf83f2127eb47afdc35d6e43fab"
+  },
+  {
+    "name": "bridgeRococoMessages outboundLanes",
+    "key": "0x2b46c0ae62c8114b3eda55630f11ff3a96c246acb9b55077390e3ca723a0ca1f"
+  },
+  {
+    "name": "bridgeRococoMessages outboundMessages",
+    "key": "0x2b46c0ae62c8114b3eda55630f11ff3a8a395e6242c6813b196ca31ed0547ea7"
+  },
+  {
+    "name": "bridgeRococoMessages palletOperatingMode",
+    "key": "0x2b46c0ae62c8114b3eda55630f11ff3a0f4cf0917788d791142ff6c1f216e7b3"
+  },
+  {
+    "name": "bridgeRococoMessages palletOwner",
+    "key": "0x2b46c0ae62c8114b3eda55630f11ff3afe6d4a58cccf03d052c50ccbfa0311c7"
+  },
+  {
+    "name": "bridgeRococoMessages palletVersion",
+    "key": "0x2b46c0ae62c8114b3eda55630f11ff3a4e7b9012096b41c4eb3aaf947f6ea429"
+  },
+  {
+    "name": "bridgeWococoGrandpa bestFinalized",
+    "key": "0xe81713b6b40972bbcd298d67597a495fa4ebafdd473c549fdb24c5c991c5591c"
+  },
+  {
+    "name": "bridgeWococoGrandpa currentAuthoritySet",
+    "key": "0xe81713b6b40972bbcd298d67597a495f24a7b8b5717ea33346fa595a66ccbcb0"
+  },
+  {
+    "name": "bridgeWococoGrandpa importedHashes",
+    "key": "0xe81713b6b40972bbcd298d67597a495f0143a06adf1bce22251cdae632c26899"
+  },
+  {
+    "name": "bridgeWococoGrandpa importedHashesPointer",
+    "key": "0xe81713b6b40972bbcd298d67597a495f799684227dccd4609843470b46c2a4b4"
+  },
+  {
+    "name": "bridgeWococoGrandpa importedHeaders",
+    "key": "0xe81713b6b40972bbcd298d67597a495ff7e5937ed7be0ea26416b155b0109b48"
+  },
+  {
+    "name": "bridgeWococoGrandpa initialHash",
+    "key": "0xe81713b6b40972bbcd298d67597a495fccab258509f2075fdbc5ad77225c3915"
+  },
+  {
+    "name": "bridgeWococoGrandpa isHalted",
+    "key": "0xe81713b6b40972bbcd298d67597a495f9611a984bbd04e2fd39f97bbc006115f"
+  },
+  {
+    "name": "bridgeWococoGrandpa palletOwner",
+    "key": "0xe81713b6b40972bbcd298d67597a495ffe6d4a58cccf03d052c50ccbfa0311c7"
+  },
+  {
+    "name": "bridgeWococoGrandpa palletVersion",
+    "key": "0xe81713b6b40972bbcd298d67597a495f4e7b9012096b41c4eb3aaf947f6ea429"
+  },
+  {
+    "name": "bridgeWococoGrandpa requestCount",
+    "key": "0xe81713b6b40972bbcd298d67597a495f8259c5bf83601e7c551b86a2faabef9f"
+  },
+  {
+    "name": "bridgeWococoMessages inboundLanes",
+    "key": "0x38653611363acac183fe5c86aa85f77be5f83cf83f2127eb47afdc35d6e43fab"
+  },
+  {
+    "name": "bridgeWococoMessages outboundLanes",
+    "key": "0x38653611363acac183fe5c86aa85f77b96c246acb9b55077390e3ca723a0ca1f"
+  },
+  {
+    "name": "bridgeWococoMessages outboundMessages",
+    "key": "0x38653611363acac183fe5c86aa85f77b8a395e6242c6813b196ca31ed0547ea7"
+  },
+  {
+    "name": "bridgeWococoMessages palletOperatingMode",
+    "key": "0x38653611363acac183fe5c86aa85f77b0f4cf0917788d791142ff6c1f216e7b3"
+  },
+  {
+    "name": "bridgeWococoMessages palletOwner",
+    "key": "0x38653611363acac183fe5c86aa85f77bfe6d4a58cccf03d052c50ccbfa0311c7"
+  },
+  {
+    "name": "bridgeWococoMessages palletVersion",
+    "key": "0x38653611363acac183fe5c86aa85f77b4e7b9012096b41c4eb3aaf947f6ea429"
+  },
+  {
     "name": "claims claims",
     "key": "0x9c5d795d0297be56027a4b2464e333979c5d795d0297be56027a4b2464e33397"
   },
@@ -328,12 +492,20 @@
     "key": "0x06de3d8a54d27e44a9d5ce189618f22db4b49d95320d9021994c850f25b8e385"
   },
   {
+    "name": "configuration bypassConsistencyCheck",
+    "key": "0x06de3d8a54d27e44a9d5ce189618f22dd7632edda90c5796d6ceb85a136cdbd0"
+  },
+  {
     "name": "configuration palletVersion",
     "key": "0x06de3d8a54d27e44a9d5ce189618f22d4e7b9012096b41c4eb3aaf947f6ea429"
   },
   {
     "name": "configuration pendingConfig",
     "key": "0x06de3d8a54d27e44a9d5ce189618f22d1fc765850d29618219e722ab01910247"
+  },
+  {
+    "name": "configuration pendingConfigs",
+    "key": "0x06de3d8a54d27e44a9d5ce189618f22d53b4123b2e186e07fb7bad5dda5f55c0"
   },
   {
     "name": "council members",
@@ -572,6 +744,18 @@
     "key": "0x5f9cc45b7a00c5899361e1c6099678dcf39a107f2d8d3854c9aba9b021f43d9c"
   },
   {
+    "name": "historical historicalSessions",
+    "key": "0x2f85f1e1378cb2d7b83adbaf0b5869c298ef7dc060436e4ed803af07632b89b6"
+  },
+  {
+    "name": "historical palletVersion",
+    "key": "0x2f85f1e1378cb2d7b83adbaf0b5869c24e7b9012096b41c4eb3aaf947f6ea429"
+  },
+  {
+    "name": "historical storedRange",
+    "key": "0x2f85f1e1378cb2d7b83adbaf0b5869c2ff3ae12770bea2e48d9bde7385e7a25f"
+  },
+  {
     "name": "hrmp hrmpAcceptedChannelRequestCount",
     "key": "0x6a0da05ca59913bc38a8630590f2627c36d88ddc2db28c074f385409f74d4fe7"
   },
@@ -788,20 +972,12 @@
     "key": "0x45323df7cc47150b3930e2666b0aa3133dca42deb008c6559ee789c9b9f70a2c"
   },
   {
-    "name": "parachainSystem lastUpgrade",
-    "key": "0x45323df7cc47150b3930e2666b0aa3133a5cbc6bcd55a92ec0833ac2066b0e25"
-  },
-  {
     "name": "parachainSystem newValidationCode",
     "key": "0x45323df7cc47150b3930e2666b0aa3138a9c0c1edbfb15b7bd5cb0b0aefa6c60"
   },
   {
     "name": "parachainSystem palletVersion",
     "key": "0x45323df7cc47150b3930e2666b0aa3134e7b9012096b41c4eb3aaf947f6ea429"
-  },
-  {
-    "name": "parachainSystem pendingRelayChainBlockNumber",
-    "key": "0x45323df7cc47150b3930e2666b0aa313962559a8b0257498adcee822c8e9b5ed"
   },
   {
     "name": "parachainSystem pendingUpwardMessages",
@@ -826,6 +1002,10 @@
   {
     "name": "parachainSystem reservedXcmpWeightOverride",
     "key": "0x45323df7cc47150b3930e2666b0aa3137a67df45a2da7255e2aee979a25f0eb1"
+  },
+  {
+    "name": "parachainSystem upgradeRestrictionSignal",
+    "key": "0x45323df7cc47150b3930e2666b0aa313f27bbb460270642b5bcaf032ea04d56a"
   },
   {
     "name": "parachainSystem upwardMessages",
@@ -914,6 +1094,14 @@
   {
     "name": "paras pastCodePruning",
     "key": "0xcd710b30bd2eab0352ddcc26417aa194fdad6eef5c4b1c68eaa71ea17a02d9de"
+  },
+  {
+    "name": "paras pvfActiveVoteList",
+    "key": "0xcd710b30bd2eab0352ddcc26417aa1949f4993f016e2d2f8e5f43be7bb259486"
+  },
+  {
+    "name": "paras pvfActiveVoteMap",
+    "key": "0xcd710b30bd2eab0352ddcc26417aa194b2653c2bebd76bb707c1566780cefa08"
   },
   {
     "name": "paras upcomingParasGenesis",
@@ -1094,14 +1282,6 @@
   {
     "name": "proxy proxies",
     "key": "0x1809d78346727a0ef58c0fa03bafa3231d885dcfb277f185f2d8e62a5f290c85"
-  },
-  {
-    "name": "randomnessCollectiveFlip palletVersion",
-    "key": "0xbd2a529379475088d3e29a918cd478724e7b9012096b41c4eb3aaf947f6ea429"
-  },
-  {
-    "name": "randomnessCollectiveFlip randomMaterial",
-    "key": "0xbd2a529379475088d3e29a918cd478721a39ec767bd5269111e6492a1675702a"
   },
   {
     "name": "recovery activeRecoveries",
@@ -1645,11 +1825,11 @@
   },
   {
     "name": "validatorManager validatorsToAdd",
-    "key": "0x45ee1e450bf84613f2bbe2b02c42d256ecdaedbe4667f2b6d71b04cb99a12829"
+    "key": "0x084e7f70a295a190e2e33fd3f8cdfcc2ecdaedbe4667f2b6d71b04cb99a12829"
   },
   {
     "name": "validatorManager validatorsToRetire",
-    "key": "0x45ee1e450bf84613f2bbe2b02c42d256b664fa73499821e43a617aa0e82b17b1"
+    "key": "0x084e7f70a295a190e2e33fd3f8cdfcc2b664fa73499821e43a617aa0e82b17b1"
   },
   {
     "name": "vesting palletVersion",
