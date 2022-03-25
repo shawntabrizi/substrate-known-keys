@@ -548,6 +548,10 @@
     "key": "0x3d9cad2baf702e20b136f4c8900cd802562840cfa6af3f9859e6c2d3fb8aea01"
   },
   {
+    "name": "crowdloan nextFundIndex",
+    "key": "0x3d9cad2baf702e20b136f4c8900cd802e71203cd811780f0b83ca4a1d8b66ff0"
+  },
+  {
     "name": "crowdloan nextTrieIndex",
     "key": "0x3d9cad2baf702e20b136f4c8900cd8025843413a9e2892b7e908f11bd4796287"
   },
@@ -574,10 +578,6 @@
   {
     "name": "democracy lastTabledWasExternal",
     "key": "0xf2794c22e353e9a839f12faab03a911bfe9f3e7f80c2c73ce03922baf72a23fd"
-  },
-  {
-    "name": "democracy locks",
-    "key": "0xf2794c22e353e9a839f12faab03a911b218f26c73add634897550b4003b26bc6"
   },
   {
     "name": "democracy lowestUnbaked",
@@ -948,6 +948,10 @@
     "key": "0x45323df7cc47150b3930e2666b0aa3132fa9f1bf25567808771bff091dc89ecd"
   },
   {
+    "name": "parachainSystem customValidationHeadData",
+    "key": "0x45323df7cc47150b3930e2666b0aa313d7a4d3f444d188a40b125c716c2588ad"
+  },
+  {
     "name": "parachainSystem didSetValidationCode",
     "key": "0x45323df7cc47150b3930e2666b0aa313a48f1ed033b256e315045c5316b3594a"
   },
@@ -1272,6 +1276,18 @@
     "key": "0xe38f185207498abb5c213d0fb059b3d8d8371c747517151d863f926f819718df"
   },
   {
+    "name": "preimage palletVersion",
+    "key": "0xd8f314b7f4e6b095f0f8ee4656a448254e7b9012096b41c4eb3aaf947f6ea429"
+  },
+  {
+    "name": "preimage preimageFor",
+    "key": "0xd8f314b7f4e6b095f0f8ee4656a448257c7dda85c9c297999fd02215e8c8f9de"
+  },
+  {
+    "name": "preimage statusFor",
+    "key": "0xd8f314b7f4e6b095f0f8ee4656a4482555b1ae8eced5522f3c4049bc84eda4a8"
+  },
+  {
     "name": "proxy announcements",
     "key": "0x1809d78346727a0ef58c0fa03bafa323a20a5b2f6b19a88cf22a45d869c2bc1b"
   },
@@ -1326,10 +1342,6 @@
   {
     "name": "scheduler palletVersion",
     "key": "0x3db7a24cfdc9de785974746c14a99df94e7b9012096b41c4eb3aaf947f6ea429"
-  },
-  {
-    "name": "scheduler storageVersion",
-    "key": "0x3db7a24cfdc9de785974746c14a99df9308ce9615de0775a82f8a94dc3d285a1"
   },
   {
     "name": "session currentIndex",
@@ -1530,6 +1542,10 @@
   {
     "name": "staking maxValidatorsCount",
     "key": "0x5f3e4907f716ac89b6347d15ececedca98c2640cda6c0d801194a8a61c699224"
+  },
+  {
+    "name": "staking minCommission",
+    "key": "0x5f3e4907f716ac89b6347d15ececedca58b0c9c1fa6cc13759ead9b42db9eebe"
   },
   {
     "name": "staking minimumValidatorCount",
@@ -1808,6 +1824,10 @@
     "key": "0x5e8a19e3cd1b7c148b33880c479c028122f224bb127609e7cebd7d411456bd96"
   },
   {
+    "name": "uniques classAccount",
+    "key": "0x5e8a19e3cd1b7c148b33880c479c02810767a4abad391f2ac82392050ba4431e"
+  },
+  {
     "name": "uniques classMetadataOf",
     "key": "0x5e8a19e3cd1b7c148b33880c479c02817de7f924bd3728c29f858dbd4c8ddb89"
   },
@@ -1900,12 +1920,24 @@
     "key": "0x7b3237373ffdfeb1cab4222e3b520d6bdf75c63fad9e3ff676422ca99d3425cf"
   },
   {
+    "name": "xcmpQueue overweight",
+    "key": "0x7b3237373ffdfeb1cab4222e3b520d6b0f923ef3252d0166429d36d20ed665a8"
+  },
+  {
+    "name": "xcmpQueue overweightCount",
+    "key": "0x7b3237373ffdfeb1cab4222e3b520d6b6d9ef3b78afddab7f5c7142131132ad4"
+  },
+  {
     "name": "xcmpQueue palletVersion",
     "key": "0x7b3237373ffdfeb1cab4222e3b520d6b4e7b9012096b41c4eb3aaf947f6ea429"
   },
   {
     "name": "xcmpQueue queueConfig",
     "key": "0x7b3237373ffdfeb1cab4222e3b520d6b4fb7683ad1cdb82c8c0b2d1c32f379c8"
+  },
+  {
+    "name": "xcmpQueue queueSuspended",
+    "key": "0x7b3237373ffdfeb1cab4222e3b520d6beaf9640e071f3fec39ccdae8e7e5ae2b"
   },
   {
     "name": "xcmpQueue signalMessages",
