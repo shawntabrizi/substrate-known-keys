@@ -25,7 +25,7 @@
   },
   {
     "name": "ACTIVE_CONFIG",
-    "key": "06de3d8a54d27e44a9d5ce189618f22db4b49d95320d9021994c850f25b8e385"
+    "key": "0x06de3d8a54d27e44a9d5ce189618f22db4b49d95320d9021994c850f25b8e385"
   },
   {
     "name": "assets account",
@@ -412,6 +412,30 @@
     "key": "0x38653611363acac183fe5c86aa85f77b4e7b9012096b41c4eb3aaf947f6ea429"
   },
   {
+    "name": "childBounties childBounties",
+    "key": "0xedfb05b766f199ce00df85317e33050eedfb05b766f199ce00df85317e33050e"
+  },
+  {
+    "name": "childBounties childBountyCount",
+    "key": "0xedfb05b766f199ce00df85317e33050ec8cf10af04e2681e7cd9d58269e4fa2c"
+  },
+  {
+    "name": "childBounties childBountyDescriptions",
+    "key": "0xedfb05b766f199ce00df85317e33050e2a7810000fbde38aa2e5f696b8baf2c1"
+  },
+  {
+    "name": "childBounties childrenCuratorFees",
+    "key": "0xedfb05b766f199ce00df85317e33050ec521cef91360683d10f85bbf7ed357f3"
+  },
+  {
+    "name": "childBounties palletVersion",
+    "key": "0xedfb05b766f199ce00df85317e33050e4e7b9012096b41c4eb3aaf947f6ea429"
+  },
+  {
+    "name": "childBounties parentChildBounties",
+    "key": "0xedfb05b766f199ce00df85317e33050ed017192fdfcd5137642a00a8a56117a2"
+  },
+  {
     "name": "claims claims",
     "key": "0x9c5d795d0297be56027a4b2464e333979c5d795d0297be56027a4b2464e33397"
   },
@@ -500,10 +524,6 @@
     "key": "0x06de3d8a54d27e44a9d5ce189618f22d4e7b9012096b41c4eb3aaf947f6ea429"
   },
   {
-    "name": "configuration pendingConfig",
-    "key": "0x06de3d8a54d27e44a9d5ce189618f22d1fc765850d29618219e722ab01910247"
-  },
-  {
     "name": "configuration pendingConfigs",
     "key": "0x06de3d8a54d27e44a9d5ce189618f22d53b4123b2e186e07fb7bad5dda5f55c0"
   },
@@ -552,16 +572,12 @@
     "key": "0x3d9cad2baf702e20b136f4c8900cd802e71203cd811780f0b83ca4a1d8b66ff0"
   },
   {
-    "name": "crowdloan nextTrieIndex",
-    "key": "0x3d9cad2baf702e20b136f4c8900cd8025843413a9e2892b7e908f11bd4796287"
-  },
-  {
     "name": "crowdloan palletVersion",
     "key": "0x3d9cad2baf702e20b136f4c8900cd8024e7b9012096b41c4eb3aaf947f6ea429"
   },
   {
     "name": "CURRENT_SLOT",
-    "key": "1cb6f36e027abb2091cfb5110ab5087f06155b3cd9a8c9e5e9a23fd5dc13a5ed"
+    "key": "0x1cb6f36e027abb2091cfb5110ab5087f06155b3cd9a8c9e5e9a23fd5dc13a5ed"
   },
   {
     "name": "democracy blacklist",
@@ -916,6 +932,82 @@
     "key": "0x7474449cca95dc5d0c00e71735a6d17d4e7b9012096b41c4eb3aaf947f6ea429"
   },
   {
+    "name": "nominationPools bondedPools",
+    "key": "0x7a6d38deaa01cb6e76ee69889f1696271f7c4e57dc49e4d6d003b730a7894f32"
+  },
+  {
+    "name": "nominationPools counterForBondedPools",
+    "key": "0x7a6d38deaa01cb6e76ee69889f169627609b6046c8c80d11c4732bbbe86ef2e0"
+  },
+  {
+    "name": "nominationPools counterForMetadata",
+    "key": "0x7a6d38deaa01cb6e76ee69889f169627582dea89936cef588ec31bdd05d700fc"
+  },
+  {
+    "name": "nominationPools counterForPoolMembers",
+    "key": "0x7a6d38deaa01cb6e76ee69889f16962794bbbc851119626279ec0cdf6fcbcf12"
+  },
+  {
+    "name": "nominationPools counterForReversePoolIdLookup",
+    "key": "0x7a6d38deaa01cb6e76ee69889f1696277296f62eda7ddb33d83593e4ffcabfc1"
+  },
+  {
+    "name": "nominationPools counterForRewardPools",
+    "key": "0x7a6d38deaa01cb6e76ee69889f169627374e737bb4879ac566901b28e793842f"
+  },
+  {
+    "name": "nominationPools counterForSubPoolsStorage",
+    "key": "0x7a6d38deaa01cb6e76ee69889f169627325473ed8c2a551346dc0c693385cb0f"
+  },
+  {
+    "name": "nominationPools lastPoolId",
+    "key": "0x7a6d38deaa01cb6e76ee69889f169627d43b7d26b38de545329a6328cd52f371"
+  },
+  {
+    "name": "nominationPools maxPoolMembers",
+    "key": "0x7a6d38deaa01cb6e76ee69889f16962730256ea2c545a3e5e3744665ffb2ed28"
+  },
+  {
+    "name": "nominationPools maxPoolMembersPerPool",
+    "key": "0x7a6d38deaa01cb6e76ee69889f1696273f0d64e1907361c689834a9c1cb0fbe0"
+  },
+  {
+    "name": "nominationPools maxPools",
+    "key": "0x7a6d38deaa01cb6e76ee69889f169627ba93302f3b868c50785e6ade45c6a1d8"
+  },
+  {
+    "name": "nominationPools metadata",
+    "key": "0x7a6d38deaa01cb6e76ee69889f169627b5f3822e35ca2f31ce3526eab1363fd2"
+  },
+  {
+    "name": "nominationPools minCreateBond",
+    "key": "0x7a6d38deaa01cb6e76ee69889f16962749d67997de33812a1cc37310f765b82e"
+  },
+  {
+    "name": "nominationPools minJoinBond",
+    "key": "0x7a6d38deaa01cb6e76ee69889f1696272be9a4e88368a2188d2b9100a9f3cd43"
+  },
+  {
+    "name": "nominationPools palletVersion",
+    "key": "0x7a6d38deaa01cb6e76ee69889f1696274e7b9012096b41c4eb3aaf947f6ea429"
+  },
+  {
+    "name": "nominationPools poolMembers",
+    "key": "0x7a6d38deaa01cb6e76ee69889f1696273c5f69e270d5b7a07f9996fe9e4e0488"
+  },
+  {
+    "name": "nominationPools reversePoolIdLookup",
+    "key": "0x7a6d38deaa01cb6e76ee69889f169627a3894665c917e5e6848f758cb8babbe3"
+  },
+  {
+    "name": "nominationPools rewardPools",
+    "key": "0x7a6d38deaa01cb6e76ee69889f169627fa0883f96ad25255581bef5ba72b8750"
+  },
+  {
+    "name": "nominationPools subPoolsStorage",
+    "key": "0x7a6d38deaa01cb6e76ee69889f169627a09a44dda6e50da0e42409e84ea3daa4"
+  },
+  {
     "name": "offences concurrentReportsIndex",
     "key": "0xd5c41b52a371aa36c9254ce34324f2a560dc8ef000cdbdc859dd352229ce16fb"
   },
@@ -994,6 +1086,10 @@
   {
     "name": "parachainSystem processedDownwardMessages",
     "key": "0x45323df7cc47150b3930e2666b0aa313d674f3eb03defaf86fb09583ef9996dd"
+  },
+  {
+    "name": "parachainSystem relayStateProof",
+    "key": "0x45323df7cc47150b3930e2666b0aa3138399ce59b27ca884649213623132836d"
   },
   {
     "name": "parachainSystem relevantMessagingState",
@@ -1834,6 +1930,10 @@
   {
     "name": "uniques instanceMetadataOf",
     "key": "0x5e8a19e3cd1b7c148b33880c479c02819a8dc5b2c03b70e90784d1e133050146"
+  },
+  {
+    "name": "uniques ownershipAcceptance",
+    "key": "0x5e8a19e3cd1b7c148b33880c479c02819a7a758387160bdc1c5ff9d2dd78ac3b"
   },
   {
     "name": "uniques palletVersion",
